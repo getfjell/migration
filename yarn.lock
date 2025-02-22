@@ -33,7 +33,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.23.9, @babel/core@npm:^7.25.2":
+"@babel/core@npm:^7.11.6, @babel/core@npm:^7.12.3, @babel/core@npm:^7.23.9, @babel/core@npm:^7.26.9":
   version: 7.26.9
   resolution: "@babel/core@npm:7.26.9"
   dependencies:
@@ -1154,7 +1154,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-env@npm:^7.25.4":
+"@babel/preset-env@npm:^7.26.9":
   version: 7.26.9
   resolution: "@babel/preset-env@npm:7.26.9"
   dependencies:
@@ -1246,7 +1246,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/preset-typescript@npm:^7.24.7":
+"@babel/preset-typescript@npm:^7.26.0":
   version: 7.26.0
   resolution: "@babel/preset-typescript@npm:7.26.0"
   dependencies:
@@ -1382,23 +1382,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fjell/core@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "@fjell/core@npm:4.3.1"
+"@fjell/core@npm:^4.3":
+  version: 4.3.2
+  resolution: "@fjell/core@npm:4.3.2"
   dependencies:
-    "@fjell/logging": "npm:^4.3.4"
+    "@fjell/logging": "npm:^4.3"
     flatted: "npm:^3.3.3"
     luxon: "npm:^3.5.0"
-  checksum: 10c0/a007891960d14b0136e45fd4d246b3c4b29d2624d7d231bc69ba794dd1ca583ec0ccc457bcf10ec75edb5d4856b333923c18227a9ff0545583f46898ee750af0
+  checksum: 10c0/63490c0999b597895ddc4d13bbabf70605c9b9210368025b2618cb6f46bc72b3dd9039b1fbb9f67f5ac8fbb5132f571b0201ea9691925177e99dd63c2c901deb
   languageName: node
   linkType: hard
 
-"@fjell/lib@npm:^4.3.0":
-  version: 4.3.0
-  resolution: "@fjell/lib@npm:4.3.0"
+"@fjell/lib@npm:^4.3":
+  version: 4.3.3
+  resolution: "@fjell/lib@npm:4.3.3"
   dependencies:
-    "@fjell/core": "npm:^4.3.1"
-    "@fjell/logging": "npm:^4.3.4"
+    "@fjell/core": "npm:^4.3"
+    "@fjell/logging": "npm:^4.3"
     "@google-cloud/firestore": "npm:^7.11.0"
     "@google-cloud/storage": "npm:^7.15.2"
     dayjs: "npm:^1.11.13"
@@ -1407,18 +1407,18 @@ __metadata:
     sequelize: "npm:^6.37.5"
     specifier-resolution-node: "npm:^1.1.4"
     winston: "npm:^3.17.0"
-  checksum: 10c0/482b3bb1c93d98e3595c317c80e43ff78b6bdad122289d2bf38164db1a497f49e2d6a20d9c66f077591cd7df68fb0ac467e5d23c8a25c4899b0d103ebe7174cf
+  checksum: 10c0/983e566d173e95d293067be6ab7e4724bbbb3d59f88713cdbc64394dcb68dfbfe201b6ca43e717e5b071953f43c7b1b4b3d51e9d56f3b1c09ffa56cd66a4f6ad
   languageName: node
   linkType: hard
 
-"@fjell/logging@npm:^4.3.4":
-  version: 4.3.4
-  resolution: "@fjell/logging@npm:4.3.4"
+"@fjell/logging@npm:^4.3":
+  version: 4.3.8
+  resolution: "@fjell/logging@npm:4.3.8"
   dependencies:
     "@types/node": "npm:^22.13.4"
     flatted: "npm:^3.3.3"
     ts-node: "npm:^10.9.2"
-  checksum: 10c0/451697fa24c732c6842b84f65207dfe2811d00bc5d5afe5e5ace4dd660f988481073311ba23f5ecd05ac92f61344756d756b1c60781ce887644015b78a13a735
+  checksum: 10c0/a9f785913b9b824d19315f8f9cbf0653cda836ba01afa589429fb2da6fefcbee71d140cfbdd80fdabcfc557fedd7ee25f60048544c6ddeb5817ebe5073523beb
   languageName: node
   linkType: hard
 
@@ -1426,21 +1426,21 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@fjell/migration@workspace:."
   dependencies:
-    "@babel/core": "npm:^7.25.2"
-    "@babel/preset-env": "npm:^7.25.4"
-    "@babel/preset-typescript": "npm:^7.24.7"
-    "@fjell/core": "npm:^4.3.1"
-    "@fjell/lib": "npm:^4.3.0"
-    "@fjell/logging": "npm:^4.3.4"
-    "@google-cloud/firestore": "npm:^7.5.0"
-    "@google-cloud/storage": "npm:^7.9.0"
+    "@babel/core": "npm:^7.26.9"
+    "@babel/preset-env": "npm:^7.26.9"
+    "@babel/preset-typescript": "npm:^7.26.0"
+    "@fjell/core": "npm:^4.3"
+    "@fjell/lib": "npm:^4.3"
+    "@fjell/logging": "npm:^4.3"
+    "@google-cloud/firestore": "npm:^7.11.0"
+    "@google-cloud/storage": "npm:^7.15.2"
     "@tsconfig/recommended": "npm:^1.0.8"
-    "@types/babel__core": "npm:^7"
-    "@types/babel__preset-env": "npm:^7"
+    "@types/babel__core": "npm:^7.20.5"
+    "@types/babel__preset-env": "npm:^7.10.0"
     "@types/jest": "npm:^29.5.14"
-    "@types/luxon": "npm:^3"
-    "@typescript-eslint/eslint-plugin": "npm:^7"
-    "@typescript-eslint/parser": "npm:^7"
+    "@types/luxon": "npm:^3.4.2"
+    "@typescript-eslint/eslint-plugin": "npm:^7.18.0"
+    "@typescript-eslint/parser": "npm:^7.18.0"
     babel-jest: "npm:^29.7.0"
     concurrently: "npm:^8.2.2"
     dayjs: "npm:^1.11.13"
@@ -1458,7 +1458,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@google-cloud/firestore@npm:^7.11.0, @google-cloud/firestore@npm:^7.5.0":
+"@google-cloud/firestore@npm:^7.11.0":
   version: 7.11.0
   resolution: "@google-cloud/firestore@npm:7.11.0"
   dependencies:
@@ -1495,7 +1495,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@google-cloud/storage@npm:^7.15.2, @google-cloud/storage@npm:^7.9.0":
+"@google-cloud/storage@npm:^7.15.2":
   version: 7.15.2
   resolution: "@google-cloud/storage@npm:7.15.2"
   dependencies:
@@ -2102,7 +2102,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__core@npm:^7, @types/babel__core@npm:^7.1.14":
+"@types/babel__core@npm:^7.1.14, @types/babel__core@npm:^7.20.5":
   version: 7.20.5
   resolution: "@types/babel__core@npm:7.20.5"
   dependencies:
@@ -2124,7 +2124,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/babel__preset-env@npm:^7":
+"@types/babel__preset-env@npm:^7.10.0":
   version: 7.10.0
   resolution: "@types/babel__preset-env@npm:7.10.0"
   checksum: 10c0/5ad0c3a8bec4f7612ee8aeecb4ee94494d3bc193f6da608cd118175e726bb2cf649515aded650defb968bfae4ec6e6c52c0c06fc83be261c0b8eaa3f8f2cf336
@@ -2217,7 +2217,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/luxon@npm:^3":
+"@types/luxon@npm:^3.4.2":
   version: 3.4.2
   resolution: "@types/luxon@npm:3.4.2"
   checksum: 10c0/d835467de3daf7e17ba78b50bb5a14efd94272439ca067990d71332a54b311544459c69623eddd243b511b28d70194c9591a9ee8cf9c038962c965f991affd7e
@@ -2305,7 +2305,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/eslint-plugin@npm:^7":
+"@typescript-eslint/eslint-plugin@npm:^7.18.0":
   version: 7.18.0
   resolution: "@typescript-eslint/eslint-plugin@npm:7.18.0"
   dependencies:
@@ -2328,7 +2328,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@typescript-eslint/parser@npm:^7":
+"@typescript-eslint/parser@npm:^7.18.0":
   version: 7.18.0
   resolution: "@typescript-eslint/parser@npm:7.18.0"
   dependencies:
